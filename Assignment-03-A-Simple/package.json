@@ -1,0 +1,9 @@
+{
+  "name": "assignment-03-a-simple",
+  "version": "1.0.0",
+  "description": "Node.js application serving a static website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

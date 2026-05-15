@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.ui-content h2 {
+  margin-top: 0;
+}
+
+.ui-footer h4 {
+  font-weight: normal;
+}

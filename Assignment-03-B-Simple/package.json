@@ -1,0 +1,14 @@
+{
+  "name": "assignment-03-b-simple",
+  "version": "1.0.0",
+  "description": "CRUD APIs using Node.js, Express.js and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.2.2",
+    "cors": "^2.8.5"
+  }
+}

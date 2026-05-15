@@ -1,0 +1,12 @@
+docker --version
+
+docker build -t wad-docker-demo .
+
+docker run -d -p 8080:80 --name wad-container wad-docker-demo
+
+docker ps
+
+docker stop wad-container
+
+docker rm wad-container
+

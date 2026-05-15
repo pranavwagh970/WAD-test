@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="page-box">
+    <h2 class="mb-4 text-center">Register User</h2>
+
+    <form (ngSubmit)="register()">
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" name="name" [(ngModel)]="user.name" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" name="email" [(ngModel)]="user.email" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Phone</label>
+        <input type="text" class="form-control" name="phone" [(ngModel)]="user.phone" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">City</label>
+        <input type="text" class="form-control" name="city" [(ngModel)]="user.city" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input type="text" class="form-control" name="username" [(ngModel)]="user.username" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" name="password" [(ngModel)]="user.password" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">Register</button>
+    </form>
+  </div>
+</div>
