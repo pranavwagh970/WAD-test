@@ -111,6 +111,76 @@ git remote add origin repository-url
 git push -u origin main
 ```
 
+## How To Perform In VS Code
+
+1. Open VS Code.
+2. Open the project folder.
+3. Open terminal using **Terminal > New Terminal**.
+4. Run `git init`.
+5. Run `git add .`.
+6. Run `git commit -m "Initial commit"`.
+7. Create a new repository on GitHub.
+8. Add remote repository URL using `git remote add origin`.
+9. Push code using `git push -u origin main`.
+
+## Viva Questions
+
+### 1. What is Git?
+
+Git is a version control system used to track changes in project files.
+
+### 2. What is GitHub?
+
+GitHub is an online platform used to store Git repositories and share code.
+
+### 3. What is a repository?
+
+A repository is a project folder managed by Git. It contains project files and version history.
+
+### 4. What is the use of `git init`?
+
+`git init` creates a new local Git repository in the current folder.
+
+### 5. What is the use of `git status`?
+
+`git status` shows the current state of files, such as modified, staged or untracked files.
+
+### 6. What is the use of `git add .`?
+
+`git add .` adds all changed files to the staging area.
+
+### 7. What is staging area?
+
+The staging area is a temporary area where files are added before creating a commit.
+
+### 8. What is a commit?
+
+A commit is a saved snapshot of the project at a particular time.
+
+### 9. What is the use of `git commit -m "Initial commit"`?
+
+It saves the staged files with a message describing the change.
+
+### 10. What is a remote repository?
+
+A remote repository is an online repository stored on GitHub.
+
+### 11. What is the use of `git remote add origin`?
+
+It connects the local Git repository to the GitHub repository.
+
+### 12. What is the use of `git push -u origin main`?
+
+It uploads local commits to the GitHub repository on the `main` branch.
+
+### 13. What is `.gitignore`?
+
+`.gitignore` is used to ignore files or folders that should not be uploaded to GitHub, such as `node_modules`.
+
+### 14. Why should `node_modules` not be pushed?
+
+`node_modules` is large and can be recreated using `npm install`, so it should not be uploaded to GitHub.
+
 ## Conclusion
 
 Git is used for version control and GitHub is used to store code online. In this assignment, a local Git repository is created and project files are pushed to GitHub using Git commands.
